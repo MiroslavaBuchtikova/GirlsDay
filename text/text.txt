@@ -1,9 +1,16 @@
+Special characters:
+
+/
+\
+{}
+[]
+<>
+!
+""
+
 About me
 
 Audrey Hepburn was a British actress, model, dancer, and humanitarian. Recognised as a film and fashion icon. She was ranked by the American Film Institute as the third-greatest female screen legend in Golden Age Hollywood, and was inducted into the International Best Dressed List Hall of Fame.
-
-My greatest ambition is to have a career without becoming a career woman.
------ Audrey Hepburn -----
 
 ______________________________________________________________
 
@@ -19,14 +26,6 @@ web design
 For me the only things of interests are those linked to the heart.
 ----- Audrey Hepburn -----
 
-Soft Skills
-communication
-problem solving
-empathy
-creativity
-team work
-
-
 ______________________________________________________________
 
 
@@ -34,9 +33,8 @@ Contact
 
 Let's meet
 
-+41 945 379 550
++41945379550
 a.hepburn@holly.com
-Noting Hill, 41
 
 
 Follow me
