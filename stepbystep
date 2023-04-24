@@ -2,18 +2,22 @@
 - setup autosave
 - html head - add icon, title and run server
 - add body, header - logo with menu
+- it's mobile first so do it also for web
 
 MENU:
 - add styles.css and styles for menu
 - add font - copy
-- add color black for a:link, text-decoration
-- active menu - css active
-- hover - diif color
-- transition
+
+- after whole section done: 
+    - add color black for a:link, text-decoration
+    - active menu - css active
+    - hover - diif color
+    - transition
 
 BODY:
 - add section s article - copy text
-- add img
+- mobile first after web
+    - add img
 - main class and css
 - color, padding
 - copy styling for p and h1

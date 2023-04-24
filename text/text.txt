@@ -13,6 +13,22 @@ Colors:
 yellow: #fff39d
 navy blue: #171236
 
+Styles:
+
+Google fonts:    
+<link
+      href="https://fonts.googleapis.com/css?family=Archivo|Comfortaa|EB+Garamond"
+      rel="stylesheet"
+    />
+
+Font awesome:
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
 
 About me
 
@@ -23,6 +39,11 @@ ______________________________________________________________
 
 Skills
 
+add icon: 
+        heart: <i class="fa fa-heart"></i>
+        phone: <i class="fas fa-phone"></i>
+        email: <i class="fas fa-envelope"></i>
+
 Hard Skills
 css
 html
@@ -32,6 +53,17 @@ web design
 For me the only things of interests are those linked to the heart.
 ----- Audrey Hepburn -----
 
+
+pulse:
+
+@keyframes pulse {
+  25% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+}
 ______________________________________________________________
 
 
