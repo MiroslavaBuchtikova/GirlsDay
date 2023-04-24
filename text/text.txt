@@ -8,6 +8,12 @@ Special characters:
 !
 ""
 
+Colors:
+
+yellow: #fff39d
+navy blue: #171236
+
+
 About me
 
 Audrey Hepburn was a British actress, model, dancer, and humanitarian. Recognised as a film and fashion icon. She was ranked by the American Film Institute as the third-greatest female screen legend in Golden Age Hollywood, and was inducted into the International Best Dressed List Hall of Fame.
