@@ -1,40 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Girl's day rules</title>
+    <title>Girl's day</title>
+    <link rel="icon" href="./images/icon.png" />
+    <link rel="stylesheet" href="./stylestest.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo|Comfortaa|EB+Garamond"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Archivo|Comfortaa|EB+Garamond"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="./images/icon.png" />
   </head>
-
   <body>
     <header>
-      <div class="logo">
-        <a href="index.html">
-          <img alt="logo" src="images/logo.svg" />
-        </a>
+      <div>
+        <img src="images/logo.svg" />
       </div>
       <nav>
         <ul>
-          <li class="active"><a href="#aboutme">About me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <a class="active" href="#aboutme">ABOUT ME</a>
+          <a href="#skills">SKILLS</a>
+          <a href="#contacts">CONTACTS</a>
         </ul>
       </nav>
     </header>
-
     <section class="main" id="aboutme">
       <div class="left centered">
         <article>
@@ -48,65 +41,59 @@
           </p>
         </article>
       </div>
-
       <div class="right">
         <img alt="Audrey portrait" src="./images/audreyHep.png" />
       </div>
     </section>
-
-    <section class="skills-section" id="skills">
+    <section id="skills">
       <div class="left centered">
         <article>
           <h1>Skills</h1>
           <ul>
             <li class="hard-skill-item">
-              <span>css</span>
+              <span>CSS</span>
               <div>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x skill-empty"></i>
               </div>
             </li>
-
             <li class="hard-skill-item">
-              <span>html</span>
+              <span>HTML</span>
               <div>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x skill-empty"></i>
+                <i class="fa fa-heart fa-3x skill-empty"></i>
               </div>
             </li>
-
             <li class="hard-skill-item">
-              <span>photoshop</span>
+              <span>PHOTOSHOP</span>
               <div>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x skill-empty"></i>
+                <i class="fa fa-heart fa-3x skill-empty"></i>
+                <i class="fa fa-heart fa-3x skill-empty"></i>
               </div>
             </li>
-
             <li class="hard-skill-item">
-              <span>web design</span>
+              <span>WEBDESIGN</span>
               <div>
-                <i class="fa fa-heart fa-3x skill-icon"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
-                <i class="fa fa-heart fa-3x skill-icon skill-empty"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x"></i>
+                <i class="fa fa-heart fa-3x skill-empty"></i>
               </div>
             </li>
           </ul>
         </article>
       </div>
-
-      <div class="right centered-part">
+      <div class="right">
         <div class="quote">
           <img src=" ./images/quote-mark.svg" alt="qoute mark" />
           <q class="quote-text"
@@ -119,34 +106,46 @@
     </section>
   </body>
   <footer>
-    <article>
-      <div class="contact-section" id="contact">
-        <div class="left">
+    <section class="contact-section" id="contacts">
+      <article>
+        <div>
           <h3>Let's meet</h3>
-          <div>
-            <i class="fa fa-phone"></i>
-            <a href="tel:+421949044400">+421 949 044 400</a>
-          </div>
-          <div>
-            <i class="fa fa-envelope"></i>
-            <a href = "mailto: abc@example.com"><span>abc@example.com</span></a>
-          </div>
+          <ul>
+            <li>
+              <i class="fas fa-phone"></i>
+              <a href="tel:+421949044400">+421 949 044 400</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:abc@example.com">abc@example.com</a>
+            </li>
+          </ul>
         </div>
+      </article>
+      <article>
         <div>
           <h3>Follow me</h3>
-          <div>
-            <span>Follow me on my social media</span>
-          </div>
-          <div>
-            <span>Stay tuned!</span>
-          </div>
-          <div>
-            <a href="https://wwww.facebook.com"><i class="fab fa-facebook-square connect-icons"></i></a>
-            <a href="https://wwww.instagram.com"><i class="fab fa-instagram connect-icons"></i></a>
-            <a href="https://wwww.twitter.com"><i class="fab fa-twitter connect-icons"></i></a>
-          </div>
+          <ul>
+            <li>
+              <span>Follow me on social media</span>
+            </li>
+            <li>
+              <span>Stay tuned!</span>
+            </li>
+            <li>
+              <a href="https://www.facebook.com"
+                ><i class="fab fa-facebook-square connect-icons"></i
+              ></a>
+              <a href="https://www.instagram.com"
+                ><i class="fab fa-instagram connect-icons"></i
+              ></a>
+              <a href="https://www.twitter.com"
+                ><i class="fab fa-twitter connect-icons"></i
+              ></a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </article>
+      </article>
+    </section>
   </footer>
 </html>
