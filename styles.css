@@ -2,43 +2,20 @@ ul {
   list-style-type: none;
   padding: 0px;
 }
-
 nav > ul {
   display: flex;
   justify-content: center;
-  flex-direction: row;
 }
 
 nav > ul > li {
-  margin: 0px 15px;
-  text-align: center;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  padding: 25px;
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .logo {
   display: flex;
   justify-content: center;
-  cursor: pointer;
-}
-
-.main {
-  background-color: #fff39d;
-  padding: 30px;
-}
-
-p {
-  font-family: "EB Garamond";
-  font-size: 25px;
-}
-
-h1 {
-  font-size: 36px;
-  font-weight: bold;
 }
 
 body,
@@ -46,84 +23,79 @@ footer {
   font-family: "Archivo";
 }
 
-article {
-  padding: 20px 50px;
-}
-
 .right {
   display: none;
 }
 
-.fa-heart {
-  font-size: 36px;
+article {
+  padding: 20px 50px;
 }
 
 .hard-skill-item {
   display: flex;
-  margin-bottom: 15px;
   flex-direction: row;
 }
 
 .hard-skill-item > span {
   font-size: 22px;
   min-width: 180px;
-  display: flex;
-  align-items: center;
-}
-
-.quote {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 30px;
-}
-
-.quote-text {
-  font-family: "Comfortaa";
-  font-size: 24px;
-}
-
-.quote-name {
-  font-family: "Comfortaa", light;
-  font-size: 18px;
-}
-
-.centered {
-  flex-direction: row;
-}
-
-.hard-skill-item:hover > div > i {
-  animation: pulse 0.5s ease-in infinite;
-}
-
-.hard-skill-item:hover > div > i.skill-empty {
-  display: none;
-}
-
-.active {
-  border-color: black;
-}
-
-nav > ul > li {
   text-transform: uppercase;
-  border-bottom: 3px solid transparent;
 }
 
-nav > ul > li:hover {
-  border-color: #171236;
-  transition: border-color 0.7s linear;
+.fa-heart {
+  font-size: 36px;
 }
 
-a {
-  border: none;
-  text-decoration: none;
-  color: black;
+@media only screen and (min-width: 1000px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .right {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+  }
+
+  .left {
+    width: 60%;
+  }
+
+  .main > article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  article {
+    padding: 30px 100px 30px 100px;
+  }
+
+  section {
+    display: flex;
+    padding: 30px;
+  }
+
+  .quote-parent {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+  }
 }
 
-html {
-  scroll-behavior: smooth;
+.main {
+  background-color: #fff39d;
+}
+
+p {
+  font-family: "EB Garamond";
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
 }
 
 @keyframes pulse {
@@ -135,8 +107,33 @@ html {
   }
 }
 
+.hard-skill-item:hover > div > i {
+  animation: pulse 0.5s ease-in infinite;
+}
+
 .skill-empty {
   color: #9a9a9a;
+}
+
+.hard-skill-item:hover > div > i.skill-empty {
+  display: none;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.quote-text {
+  font-family: "Comfortaa";
+  font-size: 24px;
+}
+.quote-name {
+  font-family: "Comfortaa", light;
+  font-size: 18px;
 }
 
 footer {
@@ -150,46 +147,29 @@ footer > section > article > div > ul > li > a:link {
 
 .connect-icons {
   color: #fff39d;
-  font-size: 40x;
+  font-size: 40px;
   margin-right: 20px;
+  font-size: 24px;
 }
 
-@media only screen and (min-width: 1000px) {
-  header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .fa-heart {
-  font-size: 54px;
+nav > ul > li {
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
 }
 
-  .right {
-    display: flex;
-    width: 40%;
-    justify-content: end;
-  }
+nav > ul > li:hover {
+  border-color: #171236;
+  transition: border-color 0.7s linear;
+}
 
-  article {
-    padding: 30px 100px 30px 150px;
-  }
+a {
+  text-decoration: none;
+  color: black;
+}
+.active {
+  border-color: black;
+}
 
-  section {
-    display: flex;
-    padding: 30px;
-  }
-
-  .main > article {
-    display: flex;
-    justify-content: space-between;
-  }
-  .left {
-    width: 60%;
-  }
-
-  .quote-parent {
-    display: flex;
-    width: 40%;
-    justify-content: end;
-  }
+html {
+  scroll-behavior: smooth;
 }

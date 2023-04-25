@@ -1,3 +1,5 @@
+Link to design: https://www.figma.com/file/PYjU5FIYZVFoEWiUOYX1GB/Girls-Day-CZ-2021?node-id=0-1&t=RR7eomXF0dKO0FSb-0
+
 Special characters:
 
 /
@@ -8,10 +10,18 @@ Special characters:
 !
 ""
 
+Screen responsivity:
+
+@media only screen and (min-width: 650px){
+
+}
+
+
 Colors:
 
 yellow: #fff39d
 navy blue: #171236
+gray: #9a9a9a
 
 Styles:
 
@@ -20,6 +30,12 @@ Google fonts:
       href="https://fonts.googleapis.com/css?family=Archivo|Comfortaa|EB+Garamond"
       rel="stylesheet"
     />
+
+Font family:
+
+"Archivo"
+"EB Garamond"
+"Comfortaa"
 
 Font awesome:
 <link
@@ -41,8 +57,6 @@ Skills
 
 add icon: 
         heart: <i class="fa fa-heart"></i>
-        phone: <i class="fas fa-phone"></i>
-        email: <i class="fas fa-envelope"></i>
 
 Hard Skills
 css
@@ -64,6 +78,8 @@ pulse:
     transform: scale(1.1);
   }
 }
+
+animation: pulse 0.5s ease-in infinite;
 ______________________________________________________________
 
 
@@ -77,3 +93,7 @@ a.hepburn@holly.com
 
 Follow me
 Follow me on my social media. Stay tuned
+
+icons:
+        phone: <i class="fas fa-phone"></i>
+        email: <i class="fas fa-envelope"></i>
