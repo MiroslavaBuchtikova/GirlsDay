@@ -1,4 +1,4 @@
-Link to design: https://www.figma.com/file/PYjU5FIYZVFoEWiUOYX1GB/Girls-Day-CZ-2021?node-id=0-1&t=RR7eomXF0dKO0FSb-0
+Link to design: https://www.figma.com/file/V7y73uONzaU3dgdcNmaoZp/Workshop?type=design&node-id=0%3A1&t=PEgsxlBi8uWsisRr-1
 
 Special characters:
 
@@ -9,13 +9,7 @@ Special characters:
 <>
 !
 ""
-
-Screen responsivity:
-
-@media only screen and (min-width: 650px){
-
-}
-
+;
 
 Colors:
 
@@ -97,3 +91,12 @@ Follow me on my social media. Stay tuned
 icons:
         phone: <i class="fas fa-phone"></i>
         email: <i class="fas fa-envelope"></i>
+
+
+
+______________________________________________________________
+Screen responsivity:
+
+@media only screen and (min-width: 650px){
+
+}
