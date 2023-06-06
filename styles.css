@@ -30,21 +30,6 @@ article {
   padding: 20px 50px;
 }
 
-.hard-skill-item {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hard-skill-item > span {
-  font-size: 22px;
-  min-width: 180px;
-  text-transform: uppercase;
-}
-
-.fa-heart {
-  font-size: 22px;
-}
-
 .main {
   background-color: #fff39d;
 }
@@ -59,6 +44,21 @@ p {
 h1 {
   font-size: 36px;
   font-weight: bold;
+}
+
+.hard-skill-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hard-skill-item > span {
+  font-size: 22px;
+  min-width: 180px;
+  text-transform: uppercase;
+}
+
+.fa-heart {
+  font-size: 22px;
 }
 
 @keyframes pulse {
