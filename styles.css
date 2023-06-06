@@ -22,7 +22,6 @@ body,
 footer {
   font-family: "Archivo";
 }
-
 .right {
   display: none;
 }
@@ -33,7 +32,7 @@ article {
 
 .hard-skill-item {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 .hard-skill-item > span {
@@ -43,50 +42,14 @@ article {
 }
 
 .fa-heart {
-  font-size: 36px;
-}
-
-@media only screen and (min-width: 1000px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .right {
-    display: flex;
-    justify-content: end;
-    width: 40%;
-  }
-
-  .left {
-    width: 60%;
-  }
-
-  .main > article {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  article {
-    padding: 30px 100px 30px 100px;
-  }
-
-  section {
-    display: flex;
-    padding: 30px;
-  }
-
-  .quote-parent {
-    display: flex;
-    justify-content: end;
-    width: 40%;
-  }
+  font-size: 22px;
 }
 
 .main {
   background-color: #fff39d;
 }
+
+
 
 p {
   font-family: "EB Garamond";
@@ -145,10 +108,16 @@ footer > section > article > div > ul > li > a:link {
   color: white;
 }
 
+footer > section > article > div > ul > li > i {
+  color: #fff39d;
+  margin-right: 5px;
+}
+
 .connect-icons {
   color: #fff39d;
   font-size: 40px;
   margin-right: 20px;
+  margin-top: 10px;
   font-size: 24px;
 }
 
@@ -173,3 +142,46 @@ a {
 html {
   scroll-behavior: smooth;
 }
+
+/* @media only screen and (min-width: 1000px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .right {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+  }
+
+  .left {
+    width: 60%;
+  }
+
+  .main > article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  article {
+    padding: 30px 100px 30px 100px;
+  }
+
+  section {
+    display: flex;
+    padding: 30px;
+  }
+
+  .quote-parent {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+  }
+
+  .hard-skill-item {
+    display: flex;
+    justify-content: left;
+  }
+} */
